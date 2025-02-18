@@ -1,7 +1,7 @@
 #!/bin/bash
 
 <<'comment'
-This script is to get the uinformation regarding the system current Memory, Swap and Disk usage
+This script is to get the uinformation regarding the system current Memory, Swap and Disk usage with date and time
 comment
 
 echo "Time and Date :" >> performance.log
