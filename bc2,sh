@@ -1,0 +1,11 @@
+#!/bin/bash
+
+<<'comment'
+let's use the concept of bash calculator in real time
+comment
+
+var1=45
+var2=455
+var3=$(echo "scale=4; $var2 / $var1" | bc )
+
+echo "the answer is : $var3"
